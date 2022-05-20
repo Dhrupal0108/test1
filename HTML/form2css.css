@@ -1,0 +1,7 @@
+fieldset{
+	text-align: justify;
+}
+input,select,textarea,div
+{
+	margin-left: 150px;
+}

@@ -1,0 +1,69 @@
+#include<stdio.h>
+#include<conio.h>
+#include(math.h>
+void main()
+{
+	int n,ans[],i;
+	printf("Enter N: ");
+	scanf("%d",&n);
+	do
+	{
+		if(n%2==0)
+		{
+			ans[].push=2;
+			n=n/2;
+			break;
+		}
+		elseif(n%3==0)
+		{
+			ans[].push=3;
+			n=n/3;
+			break;
+		}
+		elseif(n%4==0)
+		{
+			ans[].push=4;
+			n=n/4;
+			break;
+		}
+		elseif(n%5==0)
+		{
+			ans[].push=5;
+			n=n/5;
+			break;
+		}
+		elseif(n%6==0)
+		{
+			ans[].push=6;
+			n=n/6;
+			break;
+		}
+		elseif(n%7==0)
+		{
+			ans[].push=7;
+			n=n/7;
+			break;
+		}
+		elseif(n%8==0)
+		{
+			ans[].push=8;
+			n=n/8;
+			break;
+		}
+		elseif(n%9==0)
+		{
+			ans[].push=9;
+			n=n/9;
+			break;
+		}
+		elseif(n%10==0)
+		{
+			ans[].push=10;
+			n=n/10;
+			break;
+		}
+		
+	}while(n>1);
+	printf(ans[]);
+}
+		

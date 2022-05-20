@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question 8</title>
+	<link rel="stylesheet" type="text/css" href="form3.css">
+</head>
+<body>
+<center>
+<div class="Info">
+<form action="MyInfo.html">
+	<table>
+		<tr>
+			<th>Personal Information</th>
+		</tr>
+		<tr>
+			<td>First Name:</td>
+			<td><input type="text" name="fname" required></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type="text" name="lname"></td>
+		</tr>
+		<tr>
+			<td>Birth date:</td>
+			<td><input type="date" name="date" required></td>
+		</tr>
+		<tr>
+				<td>Gender:</td>
+				<td><select style="width: 190px;">
+					<option>Choose a gender</option>
+					<option>Male</option>
+					<option>Female</option>
+					</select>
+				</td>
+	</tr>
+	<tr>
+		<th>Acoount Information</th>
+	</tr>
+	<tr>
+		<td>Email:</td>
+		<td><input type="text" name="email" required></td>
+	</tr>
+	<tr>
+		<td>Retype-Email:</td>
+		<td><input type="text" name="r_email"></td>
+	</tr>
+	<tr>
+		<td>Password:</td>
+		<td><input type="password" name="pwd" minlength="8" maxlength="10" size="16" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"required></td>
+	</tr>
+	<tr>
+		<td>Security Question:</td>
+		<td><select>
+		<option>Choose a security Questions</option>
+		<option>Favourite sport</option>
+		<option>Favourite person</option>
+		<option>bestfriend name</option>
+		</select>
+	</td>
+	</tr>
+	<tr>
+		<td>Security Answer</td>
+		<td><input type="text" name="security"></td>
+	</tr>
+	<tr>
+		<th>Contact Information</th>
+	</tr>
+	<tr>
+		<td>Adrees:</td>
+		<td><input type="text" name="add"></td>
+	</tr>
+	<tr>
+		<td>City:</td>
+		<td><input type="text" name="City"></td>
+	</tr>
+	<tr>
+		<td>State:</td>
+		<td><select style="width: 192px;">
+		<option>Gujrat</option>
+		<option>Rajsthan</option>
+		<option>Maharastra</option>	
+		<option>Tamilnadu</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td>Zip:</td>
+		<td><input type="text" name="zip" size="5" ></td>
+	</tr>
+	<tr>
+		<td>Phone:</td>
+		<td><input type="" name="phone" maxlength="10" size="11" required></td>
+	</tr>
+
+	<tr>
+		<td>
+			<input type="submit" name="submit" class="button1">
+		</td>
+
+		<td>
+			<input type="reset" name="submit" class="button2">
+		</td>
+
+	</tr>
+	</table>
+</form>
+</div>
+</center>
+</body>
+</html>

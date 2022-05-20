@@ -1,0 +1,12 @@
+fieldset{
+	text-align: justify;
+}
+input
+{
+	margin-left: 150px;
+}
+body
+{
+	color: white;
+	background-color: black;
+}

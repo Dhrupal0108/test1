@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice-7</title>
+</head>
+<body>
+<form>
+	<fieldset>
+		<legend>Your Address</legend>
+		<input type="text" name="Firstname">
+		<input type="text" name="LastName">
+		<input type="text" name="Street">
+		<input type="text" name="City">
+	</fieldset>
+</form>
+</body>
+</html>
