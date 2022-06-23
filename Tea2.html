@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+             Tea Making
+        </title>
+    </head>
+    <body>
+        <center>
+            
+            <input type="button" id="tea" value="Let's Make A Tea" onclick="asyncCall()">
+        </center>
+        <script type="text/javascript">
+            function Addtealeaves()
+            {
+                return new Promise(resolve => {
+                 setTimeout(() => {console.log('Add TeaLeaves');
+                 resolve("Add Tea Leafes..");
+                },2000);
+                });
+            }
+            function Addmilk()
+            { 
+                return new Promise(resolve => {
+                 setTimeout(() => {console.log('Add Milk');
+                 resolve("Add Tea Leafes..");
+                },5000);
+                 });
+            }
+            async function asyncCall() {
+                 console.log('Add Water');
+                 const var1=   await Addtealeaves();
+                 const var2=   await Addmilk();
+            }
+        </script>
+    </body>
+</html>

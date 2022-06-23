@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Making A tea
+        </title>
+    </head>
+    <body>
+        <center>
+            <input type="button" id="tea" value="Let's Make Tea" onclick="Addwater()">
+        </center>
+        <script type="text/javascript">
+             function Addwater() 
+             {
+             console.log("Add Water");
+             AddTeaLeaves();
+             }
+             function AddTeaLeaves()
+             {
+                setTimeout(function(){ console.log("Add TeaLeaves"); },2000);
+                AddMilk();
+             }
+             function AddMilk()
+             {
+                setTimeout(function(){ console.log("Add Milk"); },5000);
+             }
+        </script>
+    </body>
+</html>
